@@ -1,0 +1,16 @@
+Package: aplot
+Title: Awesome 2d Plotting
+Version: 1.0
+Authors@R: person("Shawn", "Driscoll", email = "sdriscoll@salk.edu", role = c("aut", "cre"))
+Description: Primarily provides the aplot function which can plot data 
+  with density histograms in the margins, colorize points by groups, 
+  plot aggregated means and error bars from groups, add error bars to 
+  raw data, create contour plots and provides many ways to highlight
+  and label points.
+Imports:
+  RColorBrewer, maptools, MASS
+Depends: R (>= 3.4.4)
+License: None?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
