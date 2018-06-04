@@ -3,6 +3,8 @@
 #' Create plots with optional density histograms in the margin, colorized points by 
 #' a grouping vector, contours or aggregated means of values.
 #' 
+#' @author Shawn Driscoll
+#' 
 #' @param x Vector or matrix.
 #' @param y Second vector to plot on y-axis. If omitted then the values in \code{x} are
 #' plotted on the y-axis with x-axis values \code{1:length(x)}.
@@ -933,7 +935,7 @@ aplot.brewerSets <- function(n=NULL) {
 	if(any(idx)) {
 		cc <- cc[!idx]
 	}
-	cc <- c("#000000", "#666666", cc)
+	cc <- c("#333333", cc)
 
 	if(n <= length(cc)) {
 		return(cc[1:n])

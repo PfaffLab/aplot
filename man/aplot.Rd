@@ -290,3 +290,6 @@ aplot(x, y, contour.plot=TRUE, xpad=0.5, groups=groups,
 
 \link{pointLabel}
 }
+\author{
+Shawn Driscoll
+}
